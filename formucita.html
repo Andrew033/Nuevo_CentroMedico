@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<haed>
+	<link rel="icon" type="image/png" href="iconto.ico" />
+  <meta http-equiv="Content-Type" charset="UTF-8" />
+<LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
+<title>CENTRO MEDICO</title>
+</head>
+<header class="header">
+ <div class="conteinaer log-nav-conte">
+  <a class="logo">CENTRO MEDICO</a>
+  <nav class="navi">
+   <ul>
+    <li><a href="/CentroMedico/Loing.html">Crear perfil</a></li>
+     <li><a href=""></a></li>
+     <li><a href=""></a></li>
+     <li><a href=""></a></li>
+    </ul>
+   </nav>
+  </div>
+</header>
+<body>
+
+<form action="DatosCita1.php" method="post" class="formloging" >
+<div class="div">
+<br>
+ingrese la hora que desea para su cita:
+<br>
+<input type="Time" name="Hora">
+PM <input type="radio" name="Momento" value="PM">
+AM <input type="radio" name="Momento" value="AM">
+<br>
+ingrese la fecha en la que desea su  cita:
+<br>
+<input type="date" name="Fecha">
+<br>
+ingrese el doctor:
+<br>
+<select  name="Doctor">
+<option value="Sin Especificar">Sin Especificar</option>
+<option value="Dr.Luis ArtaviaSin">Dr.Luis Artavia</option>
+<option value="Dr.Carlos Ortiz">Dr.Carlos Ortiz</option>
+<option value="Dr.Mario Leon">Dr.Mario Leon</option>
+</select>
+<br>
+ingrese su mal estar:
+<br>
+<input type="text" name="Sintoma">
+<br>
+ingrese la especialidad que desea:
+<br>
+<select  name="Especialidad">
+<option value="NingunaPediatriaOrtodoncia">Ninguna</option>
+<option value="Pediatria">Pediatria</option>
+<option value="Ortodoncia">Ortodoncia</option>
+<option value="Medicina General">Medicina General</option>
+</select>
+<br>
+<input class="button" type ="submit" value="Ingresar Datos">
+<br>
+<div>
+</form>
+<footer class="footer">
+<div class="conteiner">
+<p>Contactenos:+50687398612</p>
+</div>
+</footer>
+</body>
+</html>

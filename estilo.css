@@ -1,0 +1,172 @@
+*{
+font-family: Roboto, sans-serif;
+font-size: 30px;
+font-weight: 600px;
+padding-down:60px;
+margin:0.1px;
+text-align: center;
+line-height: 1.5;
+
+}
+.formloging{
+background:url(https://www.sammobile.com/wp-content/uploads/2018/02/Galaxy-s9-wallpaper-19.png);
+
+background-image:100%;
+background-repeat:no-repeat;
+padding:107px;
+
+	
+}
+.form{
+background:url(http://www.teknon.es/idcsalud-client/cm/images?locale=es_ES&idMmedia=550556);
+
+background-image:100%;
+background-repeat:no-repeat;
+padding:107px;
+
+}
+
+.div{
+padding-left:-5px;
+padding-right:-5px;
+margin-lef:25px;
+
+background-color:#33A7DD;
+color:white;
+border-radius: 10px;
+-webkit-box-shadow: 0px 10px 232px 99px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 232px 99px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 232px 99px rgba(0,0,0,0.75);
+opacity:0.6;
+}
+.input1{	
+border-radius: 10px;
+margin:10px;
+background:transparent;
+
+}
+.input1:hover{
+border: 2px solid   #1176CC ;
+trasition: all 0.6s linear; 
+}
+.area{
+ border-radius: 50px;
+
+margin-left: 140px;
+
+}
+.or{
+margin-right: 335px;
+}
+.a{
+  color:red;
+  text-decoration:blink;
+
+}
+.button{
+cursor: pointer;
+padding:5px;
+font-size: 25px;
+border-radius: 32px 32px 32px 32px;
+-moz-border-radius: 32px 32px 32px 32px;
+-webkit-border-radius: 32px 32px 32px 32px;
+
+}
+.button:hover {
+    border: 2px solid   #1176CC  ;
+    background:  #abaaa9 ;
+}
+.label
+{
+color:white;
+}
+
+.clase1{
+color:black
+}
+
+.clase1:hover{
+color:white
+}
+
+.header{
+
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f66d9567452167.5b3a853d51f38.gif);
+ color:white;
+ margin-down:10px;  
+ position: fixed;
+ left:0;
+ top:0;
+ right:0;  
+
+}
+.select{
+
+
+}
+.header a {
+
+ text-decoration:none;
+ color:white;
+ border-radius:0px 0px 10px 10px;
+}
+.log-nav-conte{
+display: flex;
+justify-content: space-between;
+alingn-items:center;
+padding:20px; 
+}
+.navi ul{
+ margin: 0;
+ pandding:0;
+ list-style:none;
+}
+.navi ul li{
+ display: inline-block;
+ text-align: center;
+}
+.navi ul li a{
+display: block;
+padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+ margin: 2px;
+ trasition: all 0.4s linear;
+ font-size:0.70em;
+}
+.navi ul li a:hover{
+ border-radius: 5px;
+ background:  #33A7DD;
+
+
+}
+.logo{
+ text-shadow: 1.5px 1.5px 1.5px #EDF5F6;
+ letter-spacing: 15px;
+ font-size:1.3em;
+
+}
+.select{
+  cursor: pointer;
+  border-radius: 12px;
+  border: 3px solid #e6e7e4;
+padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  
+}
+.select:hover{
+border: 3px solid  #c8f9c7 ;
+}
+p{
+ margin-bottom: 1.6em;
+}
+.conteiner{
+ whidth: 85%;
+ max-width: 850px;
+marggin: 0 auto;
+
+}
+.footer{
+color:#f9f5f2;
+ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f66d9567452167.5b3a853d51f38.gif);
+ padding:70px;
+ text-align: right;
+ marggin:0px;
+}
